@@ -1,4 +1,4 @@
-{% set version = "2.1.0" %}
+{% set version = "2.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/iq_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/iq/iq_{{ version }}.tar.gz
-  sha256: 0394b3d2735e21a13775ca69ce3b8aa3bb9e315de15e34b1ad4ccb05e5645abd
+  sha256: 9c0b6e5ee92efe98d659ca01fbbca902cca309ee4f2804ae35a418e056cea288
 
 build:
   number: 0
